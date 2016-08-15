@@ -28,7 +28,7 @@
   ],
   "homepage": "https://navatech.vn",
   "support": {
-    "source": "https://github.com/phamxuanloc/yii2-setting"
+    "source": "https://github.com/phamxuanloc/yii2-config"
   },
   "require": {
     "php": ">=5.4.0",
