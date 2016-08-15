@@ -1,0 +1,52 @@
+{
+  "name": "phamxuanloc/yii2-setting",
+  "description": "Yii2 Setting for other application",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "setting"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Funson Lee",
+      "email": "funson86@gmail.com"
+    },
+    {
+      "name": "Pawel Kania",
+      "email": "pawel.kania@itzen.pl"
+    },
+    {
+      "name": "Le Phuong",
+      "email": "phuong17889@gmail.com"
+    },
+    {
+      "name": "Pham Xuan Loc",
+      "email": "loc.xuanphama1t1@gmail.com"
+    }
+  ],
+  "homepage": "https://navatech.vn",
+  "support": {
+    "source": "https://github.com/phamxuanloc/yii2-setting"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "bower-asset/awesome-bootstrap-checkbox": "^0.3.7",
+    "navatech/yii2-navatech-base": "@dev",
+    "navatech/yii2-roxymce": "@dev",
+    "kartik-v/yii2-password": "@dev",
+    "kartik-v/yii2-widgets": "@dev",
+    "kartik-v/yii2-tabs-x": "@dev",
+    "kartik-v/yii2-grid": "@dev",
+    "kartik-v/yii2-editable": "@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "phamxuanloc\\setting\\": "src/"
+    }
+  },
+  "extra": {
+    "bootstrap": "navatech\\setting\\Bootstrap"
+  }
+}
