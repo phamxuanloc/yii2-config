@@ -43,7 +43,7 @@
   },
   "autoload": {
     "psr-4": {
-      "phamxuanloc\\setting\\": "src/"
+      "phamxuanloc\\config\\": "src/"
     }
   },
   "extra": {
